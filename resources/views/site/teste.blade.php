@@ -1,0 +1,1 @@
+<h3>{{ $nome }} <br /> {{ $categoria_id }} <br /> {{ $mensagem }}</h3>
