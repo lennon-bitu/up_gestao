@@ -1,0 +1,20 @@
+/* estilos.css */
+:root {
+    --cor-primaria: #007bff; /* Exemplo de cor primária */
+    --cor-secundaria: #6c757d; /* Exemplo de cor secundária */
+    --cor-texto-light: #333; /* Exemplo de cor para textos */
+    --cor-texto-dark: #141414; /* Exemplo de cor para textos */
+    --cor-info: #11A8F0;
+    --cor-escura: #0A1B45;
+    /* Adicione outras cores conforme necessário */
+  }
+
+
+.bg-escuro{
+    background-color: var(--cor-escura);
+}
+
+.tam-header-site{
+    height:97%;
+    width:97%;
+}

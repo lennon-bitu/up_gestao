@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="https://getbootstrap.com.br/favicon.ico">
+    <link rel="icon" href="{{asset('favicon.ico')}}">
 
-    <title>Principal</title>
+    <title>Up Gestão</title>
 
     <!-- Principal CSS do Bootstrap -->
     <link href="https://getbootstrap.com.br/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="{{asset('css/estilo_base.css')}}">
 
     <!-- Estilos customizados para esse template -->
     <link href="carousel.css" rel="stylesheet">

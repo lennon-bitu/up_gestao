@@ -1,6 +1,6 @@
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white">
+<nav class="navbar navbar-expand-lg navbar-light bg-white" style='height:100px;'>
   <!-- Container wrapper -->
   <div class="container-fluid">
     <!-- Toggle button -->
