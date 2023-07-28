@@ -1,48 +1,6 @@
-<!doctype html>
-<html lang="pt-br">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="https://getbootstrap.com.br/favicon.ico">
 
-    <title>Principal</title>
-
-    <!-- Principal CSS do Bootstrap -->
-    <link href="https://getbootstrap.com.br/docs/4.1/dist/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Estilos customizados para esse template -->
-    <link href="carousel.css" rel="stylesheet">
-  </head>
-  <body>
-
-    <header>
-      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-        <a class="navbar-brand" href="#">Carousel</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(atual)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#">Desativado</a>
-            </li>
-          </ul>
-          <form class="form-inline mt-2 mt-md-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Pesquisar</button>
-          </form>
-        </div>
-      </nav>
-    </header>
-
+    @extends('site.layout.base')
+    @section('conteudo')
     <main role="main">
 
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
@@ -53,7 +11,7 @@
         </ol>
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img class="first-slide" src="https://placehold.co/1920x1080" alt="First slide">
+            <img class="first-slide" src="https://placehold.co/1360x680" alt="First slide">
             <div class="container">
               <div class="carousel-caption text-left">
                 <h1>Manchete</h1>
@@ -63,7 +21,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img class="second-slide" src="https://placehold.co/1920x1080" alt="Second slide">
+            <img class="second-slide" src="https://placehold.co/1360x680" alt="Second slide">
             <div class="container">
               <div class="carousel-caption">
                 <h1>Outra manchete</h1>
@@ -73,7 +31,7 @@
             </div>
           </div>
           <div class="carousel-item">
-            <img class="third-slide" src="https://placehold.co/1920x1080" alt="Third slide">
+            <img class="third-slide" src="https://placehold.co/1360x680" alt="Third slide">
             <div class="container">
               <div class="carousel-caption text-right">
                 <h1>Outra manchete, pra garantir</h1>
@@ -166,23 +124,7 @@
         <!-- /FIM DAS FEATUREZINHAS *-* -->
 
       </div><!-- /.container -->
+      @endsection
 
 
-      <!-- FOOTER -->
-      <footer class="container">
-        <p class="float-right"><a href="#">Voltar ao topo</a></p>
-        <p>&copy; Companhia S.A., 2017-2018 &middot; <a href="#">Privacidade</a> &middot; <a href="#">Termos</a></p>
-      </footer>
-    </main>
-
-    <!-- Principal JavaScript do Bootstrap
-    ================================================== -->
-    <!-- Foi colocado no final para a página carregar mais rápido -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script>window.jQuery || document.write('<script src="https://getbootstrap.com.br/docs/4.1/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-    <script src="https://getbootstrap.com.br/docs/4.1/assets/js/vendor/popper.min.js"></script>
-    <script src="https://getbootstrap.com.br/docs/4.1/dist/js/bootstrap.min.js"></script>
-    <!-- Só faz o nossos placeholders de imagens funcionarem. Não precisar copiar a próxima linha! -->
-    <script src="https://getbootstrap.com.br/docs/4.1/assets/js/vendor/holder.min.js"></script>
-  </body>
-</html>
+      
