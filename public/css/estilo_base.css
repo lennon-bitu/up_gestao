@@ -14,7 +14,14 @@
     background-color: var(--cor-escura);
 }
 
-.tam-header-site{
+.tam-image_header-site{
+   
     height:97%;
     width:97%;
+}
+.mtop-150{
+    margin-top: 150px;
+}
+.mtop-100{
+    margin-top: 100px;
 }

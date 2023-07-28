@@ -3,7 +3,7 @@
     @section('conteudo')
     <main role="main">
 
-      <div id="" class="d-flex flex-row justify-content-between w-100 h-100 bg-escuro" >
+      <div id="" class="d-flex flex-row justify-content-between mtop-100 bg-escuro" >
         <div class='d-flex flex-column align-items-center align-self-center col-6 mt-3'>
           <span class='text-warning '>Software de gestão</span>
           <h3 class='text-light'>
@@ -15,7 +15,7 @@
         </div>
 
         <div class='d-flex align-items-center col-6'> 
-          <img src='{{ asset('img/gestao.png') }}' alt='Gestão' class='tam-header-site'>
+          <img src='{{ asset('img/gestao.png') }}' alt='Gestão' class='tam-image_header-site'>
 
         </div>
       </div>
