@@ -1,6 +1,6 @@
 
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top" style='height:100px;'>
+<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top " style='height:100px;'>
   <!-- Container wrapper -->
   <div class="container-fluid">
     <!-- Toggle button -->
@@ -26,7 +26,7 @@
       </a>
 
     <!-- Collapsible wrapper -->
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <div class="collapse navbar-collapse bg-white" id="navbarSupportedContent">
       
       <!-- Left links -->
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -54,7 +54,7 @@
       <!-- Notifications -->
 
       <!-- Avatar -->
-          <span class='btn btn-primary'>Login</span>
+          <a href="{{ route('login') }}"><span class='btn btn-primary'>Login</span></a>
 
         
       

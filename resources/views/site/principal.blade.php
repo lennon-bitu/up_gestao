@@ -3,7 +3,7 @@
     @section('conteudo')
     <main role="main">
 
-      <div id="" class="d-flex flex-row justify-content-between mtop-100 bg-escuro" >
+      <div id="" class="d-flex flex-row justify-content-between mtop-100 bg-escuro vh" >
         <div class='d-flex flex-column align-items-center align-self-center col-6 mt-3'>
           <span class='text-warning '>Software de gestão</span>
           <h3 class='text-light'>

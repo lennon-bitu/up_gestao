@@ -32,14 +32,19 @@ Route::get($uri, $callback)
 Route::get('/', [PrincipalController::class, 'principal'])->name('site.index');
 Route::get('/sobre-nos', [SobreNosController::class, 'sobreNos'])->name('site.sobrenos');
 Route::get('/contato', [ContatoController::class, 'contato'])->name('site.contato');
+Route::post('/contato', [ContatoController::class, 'contato'])->name('site.contato');
+Route::get('/login', function(){
+    return view('login');
+   })->name('login');
 
-Route::prefix('app')->group(function(){
 
+Route::prefix('app')->group(function()
+{
 Route::get('/cliente', function(){  return 'Cliente'; })->name('app.cliente');
 Route::get('/fornecedor', function(){  return 'Fornecedor'; })->name('app.fornecedor');
 Route::get('/produto', function(){  return 'produto'; })->name('app.produto');
-
 });
+
 /*a função de fallback e chamada quando uma rota não e encontrada ela pode receber uma função de callback como também
 um controlador para exibir uma view personalizada
 */

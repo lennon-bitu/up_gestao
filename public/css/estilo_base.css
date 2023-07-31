@@ -4,6 +4,8 @@
     --cor-secundaria: #6c757d; /* Exemplo de cor secundária */
     --cor-texto-light: #333; /* Exemplo de cor para textos */
     --cor-texto-dark: #141414; /* Exemplo de cor para textos */
+    --cor-bg-dark: #141414; /* Exemplo de cor para bg */
+    
     --cor-info: #11A8F0;
     --cor-escura: #0A1B45;
     /* Adicione outras cores conforme necessário */
@@ -13,11 +15,13 @@
 .bg-escuro{
     background-color: var(--cor-escura);
 }
-
+.bg-black{
+    background-color: var(--cor-bg-dark);
+}
 .tam-image_header-site{
    
-    height:97%;
-    width:97%;
+    height:80%;
+    width:95%;
 }
 .mtop-150{
     margin-top: 150px;
@@ -25,3 +29,26 @@
 .mtop-100{
     margin-top: 100px;
 }
+
+.vh{ /* classe para deixar tag div ocupando 100% da altura da pagina*/
+    height: 100vh;
+}
+
+
+/* CSS template login*/
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+/* CSS template login*/

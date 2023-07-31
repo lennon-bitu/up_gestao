@@ -16,8 +16,8 @@
     <!-- Estilos customizados para esse template -->
     <link href="carousel.css" rel="stylesheet">
   </head>
-  <body>
-
+  <body class='bg-black text-light'>
+  <main role="main">
     <header>
       @include('site.layout._partials.menu')
     </header>
@@ -27,7 +27,7 @@
     
 
 <!-- FOOTER -->
-      <footer class="container">
+      <footer class="container bg">
         <p class="float-right"><a href="#">Voltar ao topo</a></p>
         <p>&copy; Companhia S.A., 2017-2018 &middot; <a href="#">Privacidade</a> &middot; <a href="#">Termos</a></p>
       </footer>
