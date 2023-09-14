@@ -5,10 +5,9 @@
 <section class="mb-4 col-12 mtop-100  bg-escuro text-light pt-5 pb-5  vh">
 
     <!--Section heading-->
-    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Contato</h2>
     <!--Section description-->
-    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
-        a matter of hours to help you.</p>
+    <p class="text-center w-responsive mx-auto mb-5">Tem alguma Dúvida, Elogio ou Crítica envie uma mensagem.</p>
 
     <div class="row d-flex flex-column align-items-center align-self-center">
 
@@ -75,7 +74,7 @@
                     </div>
                 </div>
                 <!--Grid row-->
-                <div class="text-center text-md-left">
+                <div class="text-center text-md-left mt-3">
                     <button type='submit' class='btn btn-primary'>Enviar</button>
                 </div>
             </form>
